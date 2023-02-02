@@ -1,10 +1,32 @@
+
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+  max-height: 500px;
 }
 
+.assigned-task{
+  flex: 1;
+  height: 100% !important;
+  margin: 0px 20px;
+
+}
+.card-watch{
+  flex:  1;
+  height: 100% !important;
+ margin: 0px 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.header-item{
+  margin-left: 40%;
+  /* margin-top: 2% */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,7 +34,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

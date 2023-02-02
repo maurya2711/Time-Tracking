@@ -1,0 +1,12 @@
+.stopwatch-container {
+    width: 100% !important;
+    overflow-y: hidden;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tasks-container{
+    margin-top: 5%;
+}
